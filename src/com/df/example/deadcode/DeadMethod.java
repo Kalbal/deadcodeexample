@@ -12,4 +12,8 @@ public class DeadMethod {
     public String deadMethod(){
         return indirectDeadVar3;
     }
+    
+   private void  deadPrivateMethod(){
+       //do nothing
+   }	
 }
