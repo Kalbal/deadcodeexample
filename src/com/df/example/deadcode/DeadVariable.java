@@ -6,7 +6,7 @@ public class DeadVariable {
     private String goodVar2;
     
     
-    public String returnGoodVar(){
+    public String returnGoodVar(int unusedVar){
         DeadMethod deadMethod = new DeadMethod();
         return goodVar2 + deadMethod.goodMethod();
     }
